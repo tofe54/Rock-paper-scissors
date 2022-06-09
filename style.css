@@ -23,6 +23,11 @@ button {
     
 }
 
+button:hover {
+    transform: translate(0, -15px)
+}
+
+
 i {
     color: #1abc9c;
 }
