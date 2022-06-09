@@ -4,10 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="script.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/7b583266bd.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
   <title>Rock-Paper-Scissors</title>
 </head>
 <body>
-  
+  <div id = "header">
+    <h1>Rock, Paper, Scissors</h1>
+    <div id="win-lose"></div>
+  </div>
+  <div id="container">
+  <button value="rock"><i class="fa-solid fa-hand-back-fist fa-5x"></i></button>
+  <button value="paper"><i class="fa-solid fa-hand fa-5x"></i></button>
+  <button value="scissors"><i class="fa-solid fa-hand-scissors fa-5x"></i></button>
+</div>
+<br>
+<br>
+
+<div id="results"></div>
+<div id="score">
+    <div id="playInput"></div>
+    <div id="playercount"></div>
+    <div id="compcount"></div>
+    <div id="compInput"></div>
+</div>
+
+
+
+      
 </body>
 </html>
