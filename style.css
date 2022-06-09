@@ -36,9 +36,10 @@ i {
 
 #score {
     display: flex;
-    justify-content:space-between;
-    gap: 25px;
+    justify-content: space-between;
+    gap: 72px;
     margin: 25px;
+    text-align: center;
 
 }
 
@@ -50,3 +51,11 @@ i {
 #results {
     font-size: 32px;
 }
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 36px;
+}
+

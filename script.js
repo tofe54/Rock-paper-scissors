@@ -9,8 +9,9 @@ function play (playerSelection) {
    const results = document.querySelector('#results')
    const pCount = document.querySelector("#playercount")
    const comCount = document.querySelector("#compcount")
-
-
+   const playInput = document.querySelector('#playInput')
+   const compInput = document.querySelector('#compInput')
+    document.createElement
    let result = " "
     if(playerSelection == 'rock' && computerSelection == 'paper') {
         compCount += 1;
@@ -36,7 +37,11 @@ function play (playerSelection) {
         result = "Try again"
     }
 
-    return results.textContent = result, pCount.textContent = playerCount, comCount.textContent = compCount, console.log(computerSelection)
+    return results.textContent = result,
+        pCount.textContent = playerCount, 
+        comCount.textContent = compCount, 
+        console.log(computerSelection)
+    
     
 }
 
